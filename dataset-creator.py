@@ -3,8 +3,6 @@ import os
 import pandas as pd
 
 def video_to_frames(video_path, output_folder):
-    video_name = os.path.splitext(os.path.basename(video_path))[0]
-
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 
@@ -13,13 +11,15 @@ def video_to_frames(video_path, output_folder):
     frame_count = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
     fps = cap.get(cv2.CAP_PROP_FPS)
 
+    video_name = os.path.splitext(os.path.basename(video_path))[0]
+
     frames_info_df = pd.DataFrame(columns=['Frame Number', 'Timestamp (s)', 'File Name', 'Video Name'])
 
     for frame_number in range(frame_count):
         ret, frame = cap.read()
 
         if ret:
-            file_name = f"{video_name}_frame_{frame_number:04d}.jpg"
+            file_name = f"frame_{frame_number:03d}.jpg"
             file_path = os.path.join(output_folder, file_name)
 
             cv2.imwrite(file_path, frame)
@@ -43,6 +43,6 @@ def video_to_frames(video_path, output_folder):
     cap.release()
 
 if __name__ == "__main__":
-    video_path = 'C:\\Users\\Mohammadreza\\Desktop\\Newfolder\\film filter\\8.mp4' 
+    video_path = 'C:\\Users\\Mohammadreza\\Desktop\\Newfolder\\film filter\\8-with-dark-light.mp4' 
     output_folder = 'C:\\Users\\Mohammadreza\\Desktop\\Newfolder\\new-data-test2'  
     video_to_frames(video_path, output_folder)
