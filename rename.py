@@ -6,7 +6,7 @@ source_folder = 'C:\\Users\\Mohammadreza\\Desktop\\Newfolder\\ali-file\\labels'
 
 destination_folder = 'C:\\Users\\Mohammadreza\\Desktop\\Newfolder\\ali-file\\labels1'
 
-# ایجاد فولدر مقصد
+
 os.makedirs(destination_folder, exist_ok=True)
 
 # لیست تمام فایل‌ها در فولدر مبدأ
