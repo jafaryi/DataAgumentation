@@ -19,7 +19,7 @@ for file in files:
   
     _, frame_number = os.path.splitext(file)
     
-    # حاصل جمع شماره شروع و شماره فریم
+ 
     new_name = f'frame_{start_index:03d}{frame_number}'
     
     # مسیر فایل مبدأ
