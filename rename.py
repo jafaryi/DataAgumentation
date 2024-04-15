@@ -9,7 +9,7 @@ destination_folder = 'C:\\Users\\Mohammadreza\\Desktop\\Newfolder\\ali-file\\lab
 
 os.makedirs(destination_folder, exist_ok=True)
 
-# لیست تمام فایل‌ها در فولدر مبدأ
+
 files = os.listdir(source_folder)
 
 # شماره شروع نامگذاری
