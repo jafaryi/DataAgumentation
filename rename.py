@@ -3,7 +3,7 @@ import os
 
 source_folder = 'C:\\Users\\Mohammadreza\\Desktop\\Newfolder\\ali-file\\labels'
 
-# مسیر فولدر مقصد
+
 destination_folder = 'C:\\Users\\Mohammadreza\\Desktop\\Newfolder\\ali-file\\labels1'
 
 # ایجاد فولدر مقصد
