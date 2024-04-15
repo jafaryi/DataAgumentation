@@ -14,7 +14,7 @@ files = os.listdir(source_folder)
 
 start_index = 0
 
-# تغییر نام فایل‌ها و انتقال به فولدر مقصد
+
 for file in files:
     # جدا کردن شماره فریم از نام اولیه
     _, frame_number = os.path.splitext(file)
