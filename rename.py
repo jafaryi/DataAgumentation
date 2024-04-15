@@ -16,7 +16,7 @@ start_index = 0
 
 
 for file in files:
-    # جدا کردن شماره فریم از نام اولیه
+  
     _, frame_number = os.path.splitext(file)
     
     # حاصل جمع شماره شروع و شماره فریم
