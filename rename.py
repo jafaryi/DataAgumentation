@@ -12,7 +12,6 @@ os.makedirs(destination_folder, exist_ok=True)
 
 files = os.listdir(source_folder)
 
-# شماره شروع نامگذاری
 start_index = 0
 
 # تغییر نام فایل‌ها و انتقال به فولدر مقصد
