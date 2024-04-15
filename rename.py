@@ -22,7 +22,6 @@ for file in files:
  
     new_name = f'frame_{start_index:03d}{frame_number}'
     
-    # مسیر فایل مبدأ
     source_path = os.path.join(source_folder, file)
     
     # مسیر فایل مقصد
