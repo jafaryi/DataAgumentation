@@ -1,6 +1,6 @@
 import os
 
-# مسیر فولدر مبدأ
+
 source_folder = 'C:\\Users\\Mohammadreza\\Desktop\\Newfolder\\ali-file\\labels'
 
 # مسیر فولدر مقصد
