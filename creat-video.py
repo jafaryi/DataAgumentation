@@ -19,5 +19,4 @@ image_folder = 'C:\\Users\\Mohammadreza\\Desktop\\Newfolder\\video-data'
 
 video_name = 'C:\\Users\\Mohammadreza\\Desktop\\Newfolder\\testVideo.mp4'
 
-# ساخت ویدیو
 create_video_from_images(image_folder, video_name)
