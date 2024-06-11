@@ -16,7 +16,7 @@ def create_video_from_images(image_folder, video_name, fps=30):
 
 
 image_folder = 'C:\\Users\\Mohammadreza\\Desktop\\Newfolder\\video-data'
-# نام ویدیو خروجی
+
 video_name = 'C:\\Users\\Mohammadreza\\Desktop\\Newfolder\\testVideo.mp4'
 
 # ساخت ویدیو
