@@ -14,7 +14,7 @@ def create_video_from_images(image_folder, video_name, fps=30):
     cv2.destroyAllWindows()
     video.release()
 
-# مسیر فولدر عکسها
+
 image_folder = 'C:\\Users\\Mohammadreza\\Desktop\\Newfolder\\video-data'
 # نام ویدیو خروجی
 video_name = 'C:\\Users\\Mohammadreza\\Desktop\\Newfolder\\testVideo.mp4'
