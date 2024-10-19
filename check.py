@@ -4,7 +4,7 @@ def remove_files_without_label(source_folder1, source_folder2):
   
     files_folder1 = set(os.listdir(source_folder1))
 
-    # گرفتن لیست فایل‌ها از فولدر دوم
+   
     files_folder2 = set(os.listdir(source_folder2))
 
     # یافتن فایل‌هایی که در فولدر اول وجود دارند ولی در فولدر دوم ندارند
