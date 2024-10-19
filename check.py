@@ -16,5 +16,5 @@ def remove_files_without_label(source_folder1, source_folder2):
         os.remove(file_path)
         print(f"فایل {file_name} بدون لیبل از فولدر {source_folder1} حذف شد.")
 
-# فراخوانی تابع با آدرس فولدرهای مورد نظر
+
 remove_files_without_label('C:\\Users\\Mohammadreza\\Desktop\\Newfolder\\new-data-test2', 'C:\\Users\\Mohammadreza\\Desktop\\Newfolder\\ali-file\\all')
