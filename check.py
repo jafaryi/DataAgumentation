@@ -1,7 +1,7 @@
 import os
 
 def remove_files_without_label(source_folder1, source_folder2):
-    # گرفتن لیست فایل‌ها از فولدر اول
+  
     files_folder1 = set(os.listdir(source_folder1))
 
     # گرفتن لیست فایل‌ها از فولدر دوم
