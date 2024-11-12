@@ -8,7 +8,8 @@ def remove_files_without_label(source_folder1, source_folder2):
 
  
     files_to_remove = files_folder1 - files_folder2
-    
+
+  
     for file_name in files_to_remove:
         file_path = os.path.join(source_folder1, file_name)
         os.remove(file_path)
