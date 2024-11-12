@@ -4,7 +4,6 @@ def remove_files_without_label(source_folder1, source_folder2):
   
     files_folder1 = set(os.listdir(source_folder1))
 
-   
     files_folder2 = set(os.listdir(source_folder2))
 
  
