@@ -1,6 +1,5 @@
 import cv2
 import os
-
 def create_video_from_images(image_folder, video_name, fps=30):
     images = [img for img in os.listdir(image_folder) if img.endswith(".jpg")]
     frame = cv2.imread(os.path.join(image_folder, images[0]))
